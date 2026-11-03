@@ -16,12 +16,28 @@ body {
 }
 
 header {
+  position: relative;
   text-align: center;
-  padding: 20px 0;
+  padding: 60px 0 20px;
   margin-bottom: 30px;
   background-color: #1a237e;
   color: white;
   border-radius: 5px;
+}
+
+.teacher-controls {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.teacher-controls button {
+  background-color: white;
+  color: #1a237e;
+}
+
+.teacher-controls button:hover {
+  background-color: #e8eaf6;
 }
 
 header h1 {
@@ -147,6 +163,10 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 16px;
+}
+
+.form-group input {
+  display: block;
 }
 
 button {
